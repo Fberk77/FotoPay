@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DEF384224E65C5B21EB78EE /* Pods_fotoPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9F9467072FEEB5D6628C36 /* Pods_fotoPay.framework */; };
+		883CCB8C2D37EC5000737EB5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 883CCB8B2D37EC5000737EB5 /* GoogleService-Info.plist */; };
 		88CFF3BD2D1C125800D6C7CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CFF3BC2D1C125800D6C7CD /* AppDelegate.swift */; };
 		88CFF3BF2D1C125800D6C7CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CFF3BE2D1C125800D6C7CD /* SceneDelegate.swift */; };
 		88CFF3C12D1C125800D6C7CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CFF3C02D1C125800D6C7CD /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F9F9467072FEEB5D6628C36 /* Pods_fotoPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fotoPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		883CCB8B2D37EC5000737EB5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		88CFF3B92D1C125800D6C7CD /* fotoPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fotoPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CFF3BC2D1C125800D6C7CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88CFF3BE2D1C125800D6C7CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		88CFF3C52D1C125900D6C7CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88CFF3C82D1C125900D6C7CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88CFF3CA2D1C125900D6C7CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE59A6CC3E5B419ECEB9DA1 /* Pods-fotoPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fotoPay.release.xcconfig"; path = "Target Support Files/Pods-fotoPay/Pods-fotoPay.release.xcconfig"; sourceTree = "<group>"; };
+		94CCD3F63EE896A320217EF3 /* Pods-fotoPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fotoPay.debug.xcconfig"; path = "Target Support Files/Pods-fotoPay/Pods-fotoPay.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DEF384224E65C5B21EB78EE /* Pods_fotoPay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A9FB084FBA9DF2DE5F3C2C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F9F9467072FEEB5D6628C36 /* Pods_fotoPay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88CFF3B02D1C125800D6C7CD = {
 			isa = PBXGroup;
 			children = (
 				88CFF3BB2D1C125800D6C7CD /* fotoPay */,
 				88CFF3BA2D1C125800D6C7CD /* Products */,
+				BD035A11A94C1049314B9CE5 /* Pods */,
+				7A9FB084FBA9DF2DE5F3C2C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +80,18 @@
 				88CFF3C52D1C125900D6C7CD /* Assets.xcassets */,
 				88CFF3C72D1C125900D6C7CD /* LaunchScreen.storyboard */,
 				88CFF3CA2D1C125900D6C7CD /* Info.plist */,
+				883CCB8B2D37EC5000737EB5 /* GoogleService-Info.plist */,
 			);
 			path = fotoPay;
+			sourceTree = "<group>";
+		};
+		BD035A11A94C1049314B9CE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94CCD3F63EE896A320217EF3 /* Pods-fotoPay.debug.xcconfig */,
+				8EE59A6CC3E5B419ECEB9DA1 /* Pods-fotoPay.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88CFF3CD2D1C125900D6C7CD /* Build configuration list for PBXNativeTarget "fotoPay" */;
 			buildPhases = (
+				622A70F891E2A634C9165747 /* [CP] Check Pods Manifest.lock */,
 				88CFF3B52D1C125800D6C7CD /* Sources */,
 				88CFF3B62D1C125800D6C7CD /* Frameworks */,
 				88CFF3B72D1C125800D6C7CD /* Resources */,
+				3D24D96753BD43E05F5E8530 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +155,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				88CFF3C62D1C125900D6C7CD /* Assets.xcassets in Resources */,
+				883CCB8C2D37EC5000737EB5 /* GoogleService-Info.plist in Resources */,
 				88CFF3C92D1C125900D6C7CD /* Base in Resources */,
 				88CFF3C42D1C125800D6C7CD /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D24D96753BD43E05F5E8530 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fotoPay/Pods-fotoPay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fotoPay/Pods-fotoPay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fotoPay/Pods-fotoPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		622A70F891E2A634C9165747 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fotoPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		88CFF3B52D1C125800D6C7CD /* Sources */ = {
@@ -203,7 +275,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +338,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +359,7 @@
 		};
 		88CFF3CE2D1C125900D6C7CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94CCD3F63EE896A320217EF3 /* Pods-fotoPay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +388,7 @@
 		};
 		88CFF3CF2D1C125900D6C7CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE59A6CC3E5B419ECEB9DA1 /* Pods-fotoPay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
