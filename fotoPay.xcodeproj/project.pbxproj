@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		6DEF384224E65C5B21EB78EE /* Pods_fotoPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9F9467072FEEB5D6628C36 /* Pods_fotoPay.framework */; };
 		883CCB8C2D37EC5000737EB5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 883CCB8B2D37EC5000737EB5 /* GoogleService-Info.plist */; };
+		883CCB902D4CF7F600737EB5 /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883CCB8F2D4CF7F600737EB5 /* feedViewController.swift */; };
+		883CCB922D4CF80900737EB5 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883CCB912D4CF80900737EB5 /* UpdateViewController.swift */; };
+		883CCB942D4F7E4700737EB5 /* ayarlarrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883CCB932D4F7E4700737EB5 /* ayarlarrViewController.swift */; };
 		88CFF3BD2D1C125800D6C7CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CFF3BC2D1C125800D6C7CD /* AppDelegate.swift */; };
 		88CFF3BF2D1C125800D6C7CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CFF3BE2D1C125800D6C7CD /* SceneDelegate.swift */; };
 		88CFF3C12D1C125800D6C7CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CFF3C02D1C125800D6C7CD /* ViewController.swift */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		3F9F9467072FEEB5D6628C36 /* Pods_fotoPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fotoPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		883CCB8B2D37EC5000737EB5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		883CCB8F2D4CF7F600737EB5 /* feedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
+		883CCB912D4CF80900737EB5 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		883CCB932D4F7E4700737EB5 /* ayarlarrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ayarlarrViewController.swift; sourceTree = "<group>"; };
 		88CFF3B92D1C125800D6C7CD /* fotoPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fotoPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CFF3BC2D1C125800D6C7CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88CFF3BE2D1C125800D6C7CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +82,9 @@
 				88CFF3BC2D1C125800D6C7CD /* AppDelegate.swift */,
 				88CFF3BE2D1C125800D6C7CD /* SceneDelegate.swift */,
 				88CFF3C02D1C125800D6C7CD /* ViewController.swift */,
+				883CCB8F2D4CF7F600737EB5 /* feedViewController.swift */,
+				883CCB912D4CF80900737EB5 /* UpdateViewController.swift */,
+				883CCB932D4F7E4700737EB5 /* ayarlarrViewController.swift */,
 				88CFF3C22D1C125800D6C7CD /* Main.storyboard */,
 				88CFF3C52D1C125900D6C7CD /* Assets.xcassets */,
 				88CFF3C72D1C125900D6C7CD /* LaunchScreen.storyboard */,
@@ -210,9 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883CCB902D4CF7F600737EB5 /* feedViewController.swift in Sources */,
 				88CFF3C12D1C125800D6C7CD /* ViewController.swift in Sources */,
+				883CCB942D4F7E4700737EB5 /* ayarlarrViewController.swift in Sources */,
 				88CFF3BD2D1C125800D6C7CD /* AppDelegate.swift in Sources */,
 				88CFF3BF2D1C125800D6C7CD /* SceneDelegate.swift in Sources */,
+				883CCB922D4CF80900737EB5 /* UpdateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
